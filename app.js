@@ -1,31 +1,31 @@
-console.log('faysal al mamaun');
+// time section 
+function time(){
+    const time = new Date();
+    const timeSection = time.getHours();
+    if(timeSection>=12){
+        greet = 'good afternoon';
 
-let point = {
-    x : 0,
-    y : 100,
-    z : 45,
-}
-
-// delete point.z;
-
-// console.log(JSON.stringify(point));
-
-for(var i in point){
-console.log(i);
-}
-let point2 = Object.assign({},point)
-console.log(point)
-point2.x=200;
-console.log(point2)
-
-function test(a,b,c){
-    let sum = 0;
-    // console.log(arguments);
-    for(let i = 0; i<arguments.length;i++){   
-       sum+= arguments[i];       
+    }else{
+        greet = 'good morning'
     }
-    let makeString = sum.toString();
-    console.log(makeString);
+   return greet;
 }
-test(10,15);
+// message section
+function greetings(greets,name){
+    function getName (){
+        if(name){
+            return name.split(' ')[0]
+        }else{
+            return '';
+        }
+    }
+    const welcomeMsg = 'welcome back!'
+    console.log(welcomeMsg);
+    const message = 'hi '+ greets +' '+getName()+'!';
+    
+    console.log(message) 
+}
 
+// const value = time();
+// console.log(value);
+greetings(time(),'faysal al mamun ')

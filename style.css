@@ -6,3 +6,24 @@ h2{
     font-size: 35px;
 
 }
+.form{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+    width: 50%;
+    
+   
+}
+.form_decoration input{
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+    border-color: gray;
+    padding: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    color: gray;
+    box-shadow: 10px 10px 10px gray;
+}

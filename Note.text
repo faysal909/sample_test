@@ -1,0 +1,27 @@
+Tukitaki
+start at 6.30 in 03/07/21
+
+**** basiclally STRONG and BOLD are same tage but strong is seo friendly. and strong tag semantically emphasizes the word or line
+
+html background img tag and on the other hand css background img proertry are seems almost same but some or many pors and cons between them
+When to use <img />
+
+When Your Image need to be indexed by search engine
+If it has relation to content not to design.
+If your image is not too small ( not iconic images ).
+Images where you can add alt and title attribute.
+Images from a webpage which you want to print using print media css
+
+When to use CSS background-image
+
+Images Purely Used to Design.
+No Relation With Content.
+Small Images which we can play with CSS3.
+Repeating Images ( In blog author icon , date icon will be repeated for each article etc.,).
+As i will use them based on these reasons. These are Good practices of Search Engine Optimization of Images.
+
+
+background graident is a beautiful properties 
+and background image can override the background color
+
+Best practice css style is here :https://gist.github.com/basham/2175a16ab7c60ce8e001
